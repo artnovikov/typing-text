@@ -23,8 +23,6 @@ let init = () => {
     else textFromTag = textFromArr.substring(0, textFromTag.length - 1);
     
     loader.innerHTML = textFromTag;
-
-    debugger;
     
     if (isDeleting) timeout = 200;
 
